@@ -1,6 +1,6 @@
 import React from 'react';
 import './BoostCard.css';
-
+import myImage3 from './card 3.jpeg'
 const BoostCard = () => {
   return (
     <div className="card boost-card">

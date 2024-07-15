@@ -1,38 +1,45 @@
 .revenue-card {
-    background-color: #FF5722;
+    background-color: #F25e3d;
     padding:20px;
-    border-radius: 10px;
+    border-radius: 20px;
     color:white;
     text-align: center;
     position: relative;
   }
   
-  .revenue-text, .percentage, .description, .chart-label {
+  .revenue-text{
+    font-size: 1.2rem;
     margin-bottom: 10px;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    display: inline-block;
+    background-color: #000;
+   
   }
-  
-  .chart {
-    margin: 20px 0;
-    position:relative;
+  .percentage{
+    font-size: 95px;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-weight: 600;
+    
   }
-  
-  .chart-bar {
-    width: 40%;
-    height: 100px;
-  }
-  
-  .chart-bar.positive {
-    background-color: #4CAF50;
-    margin-bottom: 3px;
-  }
-  
-  .chart-bar.negative {
-    background-color: black;
-    margin-bottom:2px;
-  }
-.divider{
-    border:none;
- border-top:1px black;
- margin:0;
-}
 
+  .description{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+  }
+
+  .chart {
+    margin: 80px 0;
+    position:relative;
+    height:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  
+
+  

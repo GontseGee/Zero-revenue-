@@ -1,8 +1,14 @@
 .boost-card {
-    background-color: #009688;
+    background-color:#12846c;
+    padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  position: relative;
   }
   
   .boost-text, .growth-text, .earnings {
     margin-bottom: 20px;
+    font-size: 30px;
   }
   
